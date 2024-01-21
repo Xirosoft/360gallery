@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>360 Image Gallery</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="content">
+      <h1>360 Image Gallery</h1>
+      <h2>A Google VR Initiative</h2>
+      <p>Welcome to the immersive world of our 360 Image Gallery, a Google VR initiative. Explore stunning panoramic visuals, step into virtual reality, and experience a new dimension of storytelling. Dive into captivating scenes, <br>right from your screen. <a href="https://developers.google.com/vr/develop/web/vrview-web" target="_blank">Learn More about Google VR</a></p>
+    </div>
+
+    <div id="vrview"></div>
+
+    <ul class="carousel">
+      <li>
+        <a href="#petra">
+          <img src="gallery/petra-thumbnail.jpg">
+          <small>Petra</small>
+        </a>
+      </li>
+      <li>
+        <a href="#christTheRedeemer">
+          <img src="gallery/christ-redeemer-thumbnail.jpg">
+          <small>Christ the Redeemer</small>
+        </a>
+      </li>
+      <li>
+        <a href="#machuPicchu">
+          <img src="gallery/machu-picchu-thumbnail.jpg">
+          <small>Machu Picchu</small>
+        </a>
+      </li>
+      <li>
+        <a href="#chichenItza">
+          <img src="gallery/chichen-itza-thumbnail.jpg">
+          <small>Chichen Itza</small>
+        </a>
+      </li>
+      <li>
+        <a href="#tajMahal">
+          <img src="gallery/taj-mahal-thumbnail.jpg">
+          <small>Taj Mahal</small>
+        </a>
+      </li>
+    </ul>
+
+
+    <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
